@@ -102,13 +102,13 @@
 /* NAV MENU */
 
 .nav__menu {
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }
 
 .nav__menuLinks {
   font-family: "Public Sans", sans-serif;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -129,6 +129,7 @@
   padding-left: 200px;
   width: 100%;
   background-image: url("../images/bg-intro-desktop.svg");
+  /* overflow: hidden; */
   background-repeat: no-repeat;
   background-position: 1000px -250px;
 }
