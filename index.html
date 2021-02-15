@@ -50,7 +50,8 @@
             </g>
           </g>
         </svg>
-        <img src="./images/icon-hamburger.svg" class="nav__icon" />
+        <img src="./images/icon-hamburger.svg" class="nav__icon" id="navOpen" />
+        <img src="./images/icon-close.svg" class="hidden" id="navClose" />
         <div class="nav__links">
           <p>Home</p>
           <p>About</p>
@@ -62,9 +63,21 @@
       </nav>
     </section>
 
+    <!-- NAV MENU -->
+
+    <section class="nav__menu hidden" id="navMenu">
+      <div class="nav__menuLinks hidden" id="navLinks">
+          <p>Home</p>
+          <p>About</p>
+          <p>Contact</p>
+          <p>Blog</p>
+          <p>Careers</p>
+      </div>
+    </section>
+
     <!-- HERO -->
 
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero__rightMobile">
         <img src="./images/image-mockups.png" class="hero__imgMobile" />
       </div>
@@ -75,7 +88,7 @@
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
-        <button type="submit" class="hero__btn">Request Invite</button>
+        <button type="submit" class="hero__btn" id="heroBtn">Request Invite</button>
       </div>
       <div class="hero__right">
         <img src="./images/image-mockups.png" class="hero__img" />
@@ -397,4 +410,5 @@
 
   © Easybank. All Rights Reserved -->
   </body>
+  <script src="./js/main.js"></script>
 </html>

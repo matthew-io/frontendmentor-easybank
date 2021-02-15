@@ -77,6 +77,7 @@
 .nav__icon {
   display: none;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .nav__btn:hover {
@@ -96,6 +97,28 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+}
+
+/* NAV MENU */
+
+.nav__menu {
+  background-color: black;
+  height: 100vh;
+}
+
+.nav__menuLinks {
+  font-family: "Public Sans", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 20px;
+  row-gap: 30px;
+}
+
+.hidden {
+  display: none;
 }
 
 /* HERO */
@@ -211,7 +234,7 @@
   }
 
   .nav__icon {
-    display: block;
+    display: inline;
   }
 
   .nav__btn {
