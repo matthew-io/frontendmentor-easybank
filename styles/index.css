@@ -44,6 +44,16 @@
   transition: 0.1s ease-in-out;
 }
 
+.nav__menuLinks p {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.nav__menuLinks p:hover {
+  color: hsl(136, 65%, 51%);
+  transition: 0.2s ease-in-out;
+}
+
 .nav__links p:hover {
   color: black;
   border-bottom: 3px solid transparent;
@@ -130,32 +140,11 @@
   width: 100%;
   background-image: url("../images/bg-intro-desktop.svg");
   /* overflow: hidden; */
+  background-size: 60%;
   background-repeat: no-repeat;
-  background-position: 1000px -250px;
-}
-
-@media screen and (max-width: 1830px) {
-  .hero {
-    background-position: 900px -250px;
-  }
-}
-
-@media screen and (max-width: 1700px) {
-  .hero {
-    background-position: 850px -250px;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  .hero {
-    background-position: 650px -250px;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .hero {
-    background-position: 600px -250px;
-  }
+  background-position: top right;
+  background-position-x: 140%;
+  background-position-y: -200px;
 }
 
 .hero__left {
@@ -654,10 +643,6 @@
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 }
-
-/* 
-grid-template-columns: repeat(4, minmax(0, 1fr));
-grid-template-rows: repeat(1, minmax(0, 1fr)); */
 
 /* FOOTER */
 
